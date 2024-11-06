@@ -1,2 +1,2 @@
 # libcp
-this is my competitive programming code library
+this is my competitive programming library
