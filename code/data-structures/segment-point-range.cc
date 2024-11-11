@@ -1,6 +1,6 @@
 struct segment {
         int size;
-        vector<long long>values;
+        vector<int>values;
         segment(int s) {
                 size = (1 << (int)ceil(log2(s)));
                 values.resize(size * 2);
@@ -9,14 +9,14 @@ struct segment {
                 index += size;
                 values[index] = value;
                 for (index /= 2; index > 0; index /= 2)
-                        values[index] = values[index * 2] + values[index * 2 + 1];
+                        values[index] = min(values[index * 2], values[index * 2 + 1]);
         }
-        long long query(int l, int r) {
-                long long sum = 0;
+        int query(int l, int r) {
+                int mn = INT_MAX;
                 for (l += size, r += size; l <= r; l /= 2, r /= 2) {
-                        if (1&l) sum += values[l++];
-                        if (!(1&r)) sum += values[r--];
+                        if (1&l) mn = min(mn, values[l++]);
+                        if (!(1&r)) mn = min(mn, values[r--]);
                 }
-                return sum;
+                return mn;
         }
 };
