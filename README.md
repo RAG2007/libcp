@@ -8,7 +8,7 @@ this is my competitive programming library
 Mogą się przydać podejścia:
 * czy są ciekawe fakty w rozwiązaniach optymalnych?
 * sprawdzić czy w zadaniu czegoś jest ”mało”.
-* sposób ”liczba dobrych obiektów = liczba wszystkich obiektów - liczba złych obiektow
+* liczba dobrych obiektów = liczba wszystkich obiektów - liczba złych obiektow
 * zastanowić się nad łatwiejszym problemem, bez jakiegoś elementu z treści.
 * zrozumieć czemu problem jest trudny -> sprowadzić problem do mniejszego zadania i czy to jest równoważne czy być może trudnejsze. Jeśli jest trudniejsze to dlaczego?
 * konstrukcja grafu
