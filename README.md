@@ -14,7 +14,7 @@ Mogą się przydać podejścia:
 * konstrukcja grafu.
 * struktura grafu.
 * obserwacje, nawet jak wydaje się że nic nie dają.
-* wiem że to umniejsza mojej dumie, ale rób podzadania Radek...
+* wiem że to umniejsza twojej dumie, ale rób podzadania Radek...
 
 > *Myśl dwa razy, abyś nie musiał kodzić trzy razy* - Karol Pokorski
 
