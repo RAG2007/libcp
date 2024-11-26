@@ -1,5 +1,4 @@
 /*
-* wklejone z github.com/tonowak/acmlib
 * Opis:
 * insert(x, y) dodaje element o wartości x na indeksie y,
 * query() zwraca największą wartość na przedziale [mi, k], gdzie k to ostatnia dodana wartość,
