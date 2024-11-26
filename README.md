@@ -16,6 +16,7 @@ Mogą się przydać podejścia:
 * obserwacje, nawet jak wydaje się że nic nie dają.
 * wiem że to umniejsza twojej dumie, ale rób podzadania radek...
 * pamiętaj o liście technik.
+* jak wydaje ci się że masz rozwiązanie, to podsumuj je w głowie i może na kartce w kilku krokach żeby się upewnić że działa.
 
 > *Myśl dwa razy, abyś nie musiał kodzić trzy razy* - Karol Pokorski
 
