@@ -10,11 +10,12 @@ Mogą się przydać podejścia:
 * prawdzić czy w zadaniu czegoś jest ”mało”.
 * sposób ”liczba dobrych obiektów = liczba wszystkich obiektów - liczba złych obiektow
 * zastanowić się nad łatwiejszym problemem, bez jakiegoś elementu z treści.
-* sprowadzić problem do innego, łatwiejszego/mniejszego problem.
+* sprowadzić problem do innego, łatwiejszego/mniejszego problemu.
 * konstrukcja grafu.
 * struktura grafu.
 * obserwacje, nawet jak wydaje się że nic nie dają.
-* wiem że to umniejsza twojej dumie, ale rób podzadania Radek...
+* wiem że to umniejsza twojej dumie, ale rób podzadania radek...
+* pamiętaj o liście technik
 
 > *Myśl dwa razy, abyś nie musiał kodzić trzy razy* - Karol Pokorski
 
