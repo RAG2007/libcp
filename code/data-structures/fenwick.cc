@@ -1,3 +1,9 @@
+/*
+* Opis:
+* update(x, y) zmienia wartość na indeksie x o y,
+* query(l, r) zwraca sumę na przedziale [l, r].
+*/
+
 struct fenwick {
         vector<long long> values;
         fenwick(int size) {

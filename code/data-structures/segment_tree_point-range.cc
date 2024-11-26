@@ -1,3 +1,9 @@
+/*
+* Opis:
+* update(x, v) zmienia wartość na indeksie x na v,
+* query(l, r) zwraca minimalną wartość na przedziale [l, r].
+*/
+
 struct segment {
         int size;
         vector<int>values;
