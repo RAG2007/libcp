@@ -11,6 +11,7 @@ Mogą się przydać podejścia:
 * liczba dobrych obiektów = liczba wszystkich obiektów - liczba złych obiektow
 * zastanowić się nad łatwiejszym problemem, bez jakiegoś elementu z treści.
 * zrozumieć czemu problem jest trudny -> sprowadzić problem do mniejszego zadania i czy to jest równoważne czy być może trudnejsze. Jeśli jest trudniejsze to dlaczego?
+* czy można coś znaczącego przedstawić jakos spójny podciąg?
 * konstrukcja grafu
 * struktura grafu.
 * obserwacje, nawet jak wydaje się że nic nie dają.
