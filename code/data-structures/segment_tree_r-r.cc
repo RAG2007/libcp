@@ -6,11 +6,6 @@ struct seg {
 	vector<long long> values;
 	vector<long long> lazy;
 	int size;
-	seg(int s) {
-		size = 1 << (int)ceil(log2(s));
-		values.resize(size * 2);
-		lazy.resize(size * 2);
-	}
 	void pro(int node) {
 		if (node >= size)
 			return;
@@ -46,6 +41,12 @@ struct seg {
 		if (middle < rq)
 			m += query(node * 2 + 1, middle + 1, rr, lq, rq);
 		return m;
+	}
+	public:
+	seg(int s) {
+		size = 1 << (int)ceil(log2(s));
+		values.resize(size * 2);
+		lazy.resize(size * 2);
 	}
 	void update(int lq, int rq, int value) {
 		update(1, 0, size - 1, lq, rq, value);
