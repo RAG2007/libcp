@@ -20,17 +20,18 @@ class hash {
 	long long sub(long long a, long long b, long long m) {
 		return (long long)(((__int128)(a - b) + m) % m);
 	}
+
+	long long exp(long long base, long long exp, long long m) {
+		for (long long res = 1;; exp >>= 1) {
+			if (exp == 0)
+				return res;
+			if (1 & exp)
+				res = mul(res, base, m);
+			base = mul(base, base, m);
+		}
+	}
 	public:
 	hs(string &a) {
-		auto exp = [&](long long base, long long exp, long long m) ->long long {
-			for (long long res = 1;; exp >>= 1) {
-				if (exp == 0)
-					return res;
-				if (1 & exp)
-					res = mul(res, base, m);
-				base = mul(base, base, m);
-			}
-		};
 		hashes.resize(a.size());
 		inv.resize(a.size());
 		inv[0] = 1;
