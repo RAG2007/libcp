@@ -1,5 +1,5 @@
 /* Opis:
-	structura do hashowania stringa i otrzymywania hashu arbitrary elementu w czasie stałym
+	structura do hashowania stringa i otrzymywania hashu jakiegokolwiek podsłowa w czasie stałym
 	get_hash(l, r) zwraca hash podzłowa [l, r]
 */
 
