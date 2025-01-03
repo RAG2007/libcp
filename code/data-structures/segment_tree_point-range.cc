@@ -20,8 +20,8 @@ struct segment {
         int query(int l, int r) {
                 int mn = INT_MAX;
                 for (l += size, r += size; l <= r; l /= 2, r /= 2) {
-                        if (1&l) mn = min(mn, values[l++]);
-                        if (!(1&r)) mn = min(mn, values[r--]);
+                        if (l&1) mn = min(mn, values[l++]);
+                        if (~r&1)) mn = min(mn, values[r--]);
                 }
                 return mn;
         }
