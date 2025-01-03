@@ -2,7 +2,7 @@
 * update(l, r, v) dodaje do wartości na przedziale [l, r] wartość v
 * query(l, r) zwraca sumę na przedziale [l, r]
 */
-struct seg {
+class seg {
 	vector<long long> values;
 	vector<long long> lazy;
 	int size;
