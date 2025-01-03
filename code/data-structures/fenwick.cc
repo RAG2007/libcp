@@ -12,7 +12,7 @@ class fenwick {
                         sum += values[index - 1];
                 return sum;
         }
-		public:
+	public:
         fenwick(int size) {
                 values.resize(size);
         }
