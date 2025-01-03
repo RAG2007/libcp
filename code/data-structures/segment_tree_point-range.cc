@@ -21,7 +21,7 @@ struct segment {
                 int mn = INT_MAX;
                 for (l += size, r += size; l <= r; l /= 2, r /= 2) {
                         if (l&1) mn = min(mn, values[l++]);
-                        if (~r&1)) mn = min(mn, values[r--]);
+                        if (~r&1) mn = min(mn, values[r--]);
                 }
                 return mn;
         }
