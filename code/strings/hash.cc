@@ -1,6 +1,6 @@
 /* Opis:
 	structura do hashowania stringa i otrzymywania hashu jakiegokolwiek podsłowa w czasie stałym
-	get_hash(l, r) zwraca hash podzłowa [l, r]
+	get_hash(l, r) zwraca hash podsłowa [l, r]
 */
 
 class hash {
