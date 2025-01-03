@@ -7,7 +7,7 @@
 class segment {
         int size;
         vector<int>values;
-		public:
+	public:
         segment(int s) {
                 size = (1 << (int)ceil(log2(s)));
                 values.resize(size * 2);
