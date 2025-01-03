@@ -31,7 +31,7 @@ class hash {
 		}
 	}
 	public:
-	hs(string &a) {
+	hash(string &a) {
 		hashes.resize(a.size());
 		inv.resize(a.size());
 		inv[0] = 1;
