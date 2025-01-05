@@ -2,8 +2,16 @@
 this is my competitive programming library
 
 ## What to remember
-* potwierdzić, że się rozumie treść, na podstawie przykładowych.
-* przeczytać ***ze zrozumieniem*** treść, możliwe że 2 razy.
+Stosuj się do schematu:
+1. Zdefiniuj dobrze problem
+2. Czy jest to znana technika? Czy jest to trywialne?
+3. Jeśli nie, znajdź obserwację, i powróć do kroku 1. Jeśli tak to klep
+
+W dodatku 4 zasady:
+1. Nie myśl nad zadankiem przez ponad 5 min jak nie przeczytałeś wszystkich.
+2. Jak czytasz zadanie nie myśl nad innymi
+3. Jak wymyśliłeś rozwiązanie w mniej niż 15min, to nie wymyśliłeś rozwiązania.
+4. Jak rzeczywiście wymiśliłeś rozwiązanie, to pomyśl nad rozwiązaniem 5min (powtórz w krokach, potwierdź z ograniczeniami z treści tzn czy mają sens i czy działa rozwiązanie).
 
 Mogą się przydać podejścia:
 * czy są ciekawe fakty w rozwiązaniach optymalnych?
