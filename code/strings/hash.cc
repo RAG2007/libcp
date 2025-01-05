@@ -1,6 +1,6 @@
 /* Opis:
-	structura do hashowania stringa i otrzymywania hashu arbitrary elementu w czasie stałym
-	get_hash(l, r) zwraca hash podzłowa [l, r]
+	structura do hashowania stringa i otrzymywania hashu jakiegokolwiek podsłowa w czasie stałym
+	get_hash(l, r) zwraca hash podsłowa [l, r]
 */
 
 class hash {
@@ -31,7 +31,7 @@ class hash {
 		}
 	}
 	public:
-	hs(string &a) {
+	hash(string &a) {
 		hashes.resize(a.size());
 		inv.resize(a.size());
 		inv[0] = 1;
